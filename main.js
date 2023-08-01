@@ -30,7 +30,7 @@ async function main() {
 			moneyLostPerYear,
 			yearsPlayed,
 			prizeTable,
-            myRow
+			myRow,
 		} = result
 
 		console.log(`Lottery Script ${i + 1}:`)
@@ -38,9 +38,9 @@ async function main() {
 		console.log(`Money won: ${moneyWon}€`)
 		console.log(`Money lost: -${moneyLost}€`)
 		console.log(`Money lost per year: -${moneyLostPerYear}€`)
-        console.log(`Years played: ${yearsPlayed}`)
-        console.log(`My row: ${myRow.numbers} ${myRow.stars}`)
-        console.table(prizeTable)
+		console.log(`Years played: ${yearsPlayed}`)
+		console.log(`My row: ${myRow.numbers} ${myRow.stars}`)
+		console.table(prizeTable)
 		console.log("------------------------------------")
 	}
 }

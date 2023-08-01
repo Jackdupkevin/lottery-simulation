@@ -1,6 +1,5 @@
 const { Worker, isMainThread, parentPort } = require("worker_threads")
 
-
 function runLottery() {
 	const ticketPrice = 2.5
 	const rowsPerWeek = 2
@@ -19,7 +18,7 @@ function runLottery() {
     Voittonumerot 50. Eurojackpot-arvonnalle 2023, joka suoritettiin perjantai 23. kesäkuuta klo 21:00 Keski-Euroopan kesäaikaa (CEST) (20:00 GMT):
     
     */
-   
+
 	let prizeTable = [
 		{ numbers: 2, stars: 1, prize: 9.2, hit: 0 },
 		{ numbers: 1, stars: 2, prize: 11.2, hit: 0 },
